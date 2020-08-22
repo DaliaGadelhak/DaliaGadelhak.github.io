@@ -39,9 +39,9 @@
 
 @media(max-width: 500px) {
     .modal-content{
-        width:200px;
+        width:1500px;
         height:90vh;
-        padding:5rem;
+        padding:0;
     }
 }
 
