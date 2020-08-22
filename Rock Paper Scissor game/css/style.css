@@ -102,6 +102,6 @@ body {
 
 @media(max-width: 500px) {
     .choice{
-        font-size: 60px;
+        font-size: 40px;
     }
 }
