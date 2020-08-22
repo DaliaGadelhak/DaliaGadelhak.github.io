@@ -65,14 +65,14 @@ function showWinner(winner, computerChoice, playerChoice) {
     playerResult.innerHTML = `
         <h1 style="color: #d5678f;"> PLAYER </h1>
         <h1 class="text-win"> You Win! </h1>
-         <i class="fas fa-hand-${playerChoice} fa-10x"></i>
+         <i class="fas fa-hand-${playerChoice} fa-8x"></i>
          <p>Player Chose <strong>${playerChoice.charAt(0).toUpperCase() +
       playerChoice.slice(1)}</strong>
          </p>`
     result.innerHTML = ` 
         <h1 style="color: #8c4c10;"> COMPUTER </h1> 
         <h1 class="text-lose"> Computer Lose! </h1>
-         <i class="fas fa-hand-${computerChoice} fa-10x"></i>
+         <i class="fas fa-hand-${computerChoice} fa-8x"></i>
          <p>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase() +
       computerChoice.slice(1)}</strong>
          </p>`;
@@ -81,13 +81,13 @@ function showWinner(winner, computerChoice, playerChoice) {
     playerResult.innerHTML = `
     <h1 style="color: #d5678f;"> PLAYER </h1>
     <h2 class="text-lose">HARD LUCK!</h2>
-    <i class="fas fa-thumbs-down fa-10x"></i>
+    <i class="fas fa-thumbs-down fa-8x"></i>
      <h2><strong>Player Lose!</strong><h2>
     `
     result.innerHTML = `
         <h1 style="color: #8c4c10;"> COMPUTER </h1>
         <h1 class="text-win">Winner!</h1>
-        <i class="fas fa-trophy fa-10x"></i>
+        <i class="fas fa-trophy fa-8x"></i>
         <h2><strong>Computer Win!</strong></h2>`;
     restartGame();
 
@@ -95,13 +95,13 @@ function showWinner(winner, computerChoice, playerChoice) {
     playerResult.innerHTML = `
     <h1 style="color: #d5678f;"> PLAYER </h1>
     <h2 class="text-win">CONGRATULATIONS! WINNER!</h2>
-    <i class="fas fa-trophy fa-10x"></i>
+    <i class="fas fa-trophy fa-8x"></i>
     <h2><strong>Player Win!</strong><h2>
     `
     result.innerHTML = `
         <h1 style="color: #8c4c10;"> COMPUTER </h1>
         <h2 class="text-lose">OPPS!</h2>
-        <i class="fas fa-thumbs-down fa-10x"></i>
+        <i class="fas fa-thumbs-down fa-8x"></i>
          <h2><strong>Computer Lose!</strong><h2>`;
 
     restartGame();
@@ -115,14 +115,14 @@ function showWinner(winner, computerChoice, playerChoice) {
   playerResult.innerHTML = `
      <h1 style="color: #d5678f;"> PLAYER </h1>
      <h1 class="text-lose">You Lose!</h1>
-     <i class="fas fa-hand-${playerChoice} fa-10x"></i>
+     <i class="fas fa-hand-${playerChoice} fa-8x"></i>
      <p>Player Chose <strong>${playerChoice.charAt(0).toUpperCase() +
   playerChoice.slice(1)}</strong>
      </p>`
     result.innerHTML = `
         <h1 style="color: #8c4c10;"> COMPUTER </h1>
         <h1 class="text-win">Computer Win!</h1>
-         <i class="fas fa-hand-${computerChoice} fa-10x"></i>
+         <i class="fas fa-hand-${computerChoice} fa-8x"></i>
          <p>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase() +
       computerChoice.slice(1)}</strong>
          </p>`;
@@ -130,14 +130,14 @@ function showWinner(winner, computerChoice, playerChoice) {
   playerResult.innerHTML = `
     <h1 style="color: #d5678f;"> PLAYER </h1>
     <h1>It's a Draw!</h1>
-     <i class="fas fa-hand-${playerChoice} fa-10x"></i>
+     <i class="fas fa-hand-${playerChoice} fa-8x"></i>
      <p>Player Chose <strong>${playerChoice.charAt(0).toUpperCase() +
   playerChoice.slice(1)}</strong>
      </p>`
     result.innerHTML = `
          <h1 style="color: #8c4c10;"> COMPUTER </h1>
          <h1>It's a Draw!</h1>
-         <i class="fas fa-hand-${computerChoice} fa-10x"></i>
+         <i class="fas fa-hand-${computerChoice} fa-8x"></i>
          <p>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase() +
       computerChoice.slice(1)}</strong>
          </p>`;
